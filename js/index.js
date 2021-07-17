@@ -15,7 +15,7 @@ function init() {
     totalSec = th * 60 + tm;
     tSec = totalSec;
     started = false;
-
+    totalWords = 0; wrongWords = 0; currrentASCII = 0;
     position = 0;
 
     pastText = ''; presentText = ''; futureText = articleText;
